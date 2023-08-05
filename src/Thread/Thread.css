@@ -1,0 +1,111 @@
+ a{
+    color:#ffffff;
+    text-decoration: none;
+}
+/*---------------home page-----------*/
+
+.hero{
+    background-image:url("../Images/pexels-kyle-roxas-2138922.jpg") ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    height:100vh;
+   
+    
+}
+.hero h1{
+    margin:0;
+    font-size:90px ;
+    color:rgb(82,54,115,0.7);
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%)
+}
+
+/*---------------navbar-------------*/
+.navthread{
+    background-color: rgb(63, 63, 106) ;
+}
+.navthread a:hover{
+  color:rgb(197, 128, 147);
+}
+
+/*----------------------------student detail------------*/
+svg{
+    margin-left: 10px;
+    fill:black;
+}
+.table{
+    margin-top: 20px;
+}
+.table thead th{
+    background-color: rgb(144, 144, 193);
+}
+.table tbody tr{
+    background-color: rgb(217, 217, 245);
+   
+}
+.table tbody td{
+    color:#ffffff;
+}
+.btn{
+    background-color: rgb(144, 144, 193);
+    border: 0;
+
+}
+.btn:hover{
+    background-color:  rgb(183, 183, 223);
+}
+.btn::selection{
+    background-color:  rgb(144, 144, 193);
+}
+
+/*-----------add Details-------------------*/
+.row.mb-1{
+    text-align: center;
+}
+
+input,select{
+    margin-left: 10px !important;
+}
+.form-label{
+    color:black;
+}
+.form{
+    background-color:rgb(217, 217, 245);
+    padding: 20px;
+    position: relative;
+}
+.btn-cl{
+color:#ffffff;        
+border-radius:0;
+ position: absolute;
+top: 0;
+right:0;
+background-color:rgb(127, 127, 192);
+}
+.btn-cl.btn-close{
+fill: #ffffff;
+}
+.input-group>.form-control{
+    width:20% !important;
+}
+.form .col-md-4{
+    margin-left: 13px;
+}
+/*---------------------view-----------------*/
+.view-container{
+    display: flex;
+    justify-content: center;
+}
+.view-container .card{
+   
+    background-color: rgb(217, 217, 245);
+    
+}
+/*---------------------view-----------------*/
+.edit-form{
+    margin-top: 20px;
+}

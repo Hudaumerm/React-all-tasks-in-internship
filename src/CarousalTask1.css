@@ -1,0 +1,16 @@
+.headings{
+    font-family: Georgia;
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+}
+.para{
+    font-family: Georgia;
+    font-size: 25px;
+    color:rgb(234, 247, 0);
+}
+.carousal-items{
+    filter: brightness(120%);
+    filter: contrast(120%);
+    filter:drop-shadow(10px 10px 10px black)
+
+}
